@@ -1,7 +1,7 @@
 package com.company;
 
 public class Programmer extends Person {
-    private final String companyName;
+    private String companyName;
 
     public Programmer(String name, String desingnation, String companyName) {
         super(name, desingnation);
