@@ -2,7 +2,7 @@ package com.company;
 
 public class Singer extends Person{
 
-    private final String bandName;
+    private String bandName;
 
     public Singer(String name, String desingnation, String bandName) {
         super(name, desingnation);
